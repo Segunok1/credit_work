@@ -1,4 +1,4 @@
-﻿string[] initialArray = new string[5] { "yes", "hello", "yellow", "9876", "56" };
+﻿string[] initialArray = new string[6] { "yes", "hello", "456", "yellow", "9876", "56" };
 string[] sortedArray = new string[initialArray.Length];
 
 void PerebArray(string[] initialArray, string[] sortedArray)
@@ -16,12 +16,11 @@ void PerebArray(string[] initialArray, string[] sortedArray)
 
 void PrintArray(string[] array)
 {
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($"{array[i]} ");
-    }
+    for (int i = 0; i < array.Length; i++);
+    Console.Write(string.Join(" ", sortedArray));
     Console.WriteLine();
 }
 
 PerebArray(initialArray, sortedArray);
 PrintArray(sortedArray);
+
