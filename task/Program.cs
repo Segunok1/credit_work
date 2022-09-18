@@ -16,7 +16,8 @@ void PerebArray(string[] initialArray, string[] sortedArray)
 
 void PrintArray(string[] array)
 {
-    for (int i = 0; i < array.Length; i++);
+    for (int i = 0; i < array.Length; i++)
+        ;
     Console.Write(string.Join(" ", sortedArray));
     Console.WriteLine();
 }
