@@ -3,7 +3,6 @@ string[] sortedArray = new string[initialArray.Length];
 int count = 0;
 void PerebArray(string[] initialArray, string[] sortedArray)
 {
-    
     for (int i = 0; i < initialArray.Length; i++)
     {
         if (initialArray[i].Length <= 3)
@@ -24,4 +23,3 @@ void PrintArray(string[] array)
 
 PerebArray(initialArray, sortedArray);
 PrintArray(sortedArray);
-
